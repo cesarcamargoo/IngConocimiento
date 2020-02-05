@@ -4,7 +4,7 @@ Integrantes:
 Camargo Cruz Cesar Ulises
 Lugo Garcia Rodrigo
 Velez Ortega Noemi 
-Murillo Tomas
+Murillo Sumano Tomás Alejandro
 
 CÓDIGO:
 usuario:- write('{"usuario":"'), read(U) , write(U), write('",'), ontologia, write('}').
