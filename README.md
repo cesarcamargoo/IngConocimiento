@@ -6,6 +6,9 @@ Lugo Garcia Rodrigo
 Velez Ortega Noemi 
 Murillo Sumano Tomás Alejandro
 
+
+
+Nooo compañeros, en el read me sólo van los nombres de los integrantes, luego crean un archivo aparte y suben su base de conocimiento. Hacen otro archivo y suben la otra base de conocimiento.
 CÓDIGO:
 usuario:- write('{"usuario":"'), read(U) , write(U), write('",'), ontologia, write('}').
 ontologia:- write(' "ontologia":"'),read(X) , write(X), write('",'),objeto.
