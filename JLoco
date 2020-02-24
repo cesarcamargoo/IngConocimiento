@@ -12,12 +12,12 @@ a2:- read(X),( X='decision'->decision;(X='asignacion'->asignacion;(X='fin'->writ
 asignacion:- read(X), write(X), write('='), read(Y), write(Y), write(';'),a2.
 decision:- write('if('),condicion,write(')'), verdadero, falso.
 condicion:-read(X), write(X).
-verdadero:- write('{'),a2,write('}').
+verdadero:- write('{'),a2.
 falso:-  write('else {'),a2,write('}').
 
 :- usuario.
 
-equipoX.
+jLoco.
 impuestos.
 calculador_isan.
 precio.
@@ -42,3 +42,5 @@ isan.
 precio*(5/100).
 fin.
 fin.
+
+https://rextester.com/CHST8308
