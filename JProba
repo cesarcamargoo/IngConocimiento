@@ -1,0 +1,28 @@
+jproba:-write('{"jproba":'),arbol.
+arbol:-write('"nbarbol":'),read(X),write(X),write('",'),dimension.
+dimension:-write('"dimension":{"nbdimension":'),read(X),write(X),write('",'),valores.
+valores:-write('['),read(X),(X='valor'->valor; (X='findimension'->write(']'))).
+valor:-write('"valor":{"nbvalor":'),read(X),write(X),write('", "proba":'),read(Y),write(Y),write('}'),a1.
+a1:-read(X),(X='valor'->(write(','),valor); (X='dimension'->dimension;(X='findimension'->write('}')))).
+:-jproba.
+
+jProba.
+mercado.
+valor.
+pais1.
+0.25.
+findimension.
+dimension.
+industria.
+valor.
+a.
+0.35.
+valor.
+b.
+0.15.
+valor.
+c.
+0.5.
+findimension.
+
+https://rextester.com/FJVD50811
